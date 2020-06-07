@@ -1,0 +1,134 @@
+/*****Base Styles******/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #0b3681;
+    font-size: 24px;
+    width: 1400px;
+    margin: auto;
+}
+
+/*****Grid Styles*****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width, .half-width-left, .half-width-right {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;    
+    float: left;
+}
+
+/*****Header*****/
+header {
+    height: 800px;
+    background: url('../img/hero-blue.png');
+    background-size: cover;
+}
+
+header h1{
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 60px;
+    color: #06d1ff;
+    text-align: center;
+    width: 1200px;
+    padding: 338px 0px 0px 0px;
+    font-weight: bold;
+}
+
+header h2 {
+    color: #0b3681;
+    font-size: 48px;
+    width: 788px;
+    text-align: center;
+    padding-left: 200px;
+    font-weight: 300;
+}
+
+/*****Work*****/
+#work {
+    overflow: auto;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+#work p span {
+    font-weight: bold;
+}
+#work h2 {
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+#work img {
+    width: 550px;
+    height: 350px;
+    border: 1px solid #b7b7b7;
+    box-sizing: border-box;
+}
+.text-box {
+    height: 350px;
+    margin: auto;
+}
+.half-width-right .text-box {
+    padding-left: 25px;
+}
+.half-width-left, .half-width-right {
+    margin-bottom: 100px;
+}
+/*****About*****/
+#about {
+    height: 700px;
+    color: #ffffff; 
+    background-color: #0489b1;
+    text-align: left;
+}
+#about h2 {
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 36px;
+    text-align: center;
+}
+#about p {
+    width: 600px;
+}
+#about img {
+    height:425px;
+    width: 425px;
+    padding-top: 50px;
+}
+/*****Contact*****/
+#contact {
+    height: 450px;
+    color: #ffffff;
+    background-color: #0b3681;
+    padding: 1px;
+}
+#contact h2 {
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 36px;
+    text-align: center;
+}
+#contact h4 {
+    margin:25px;
+    text-align: center;
+}
+#contact p, img {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 24px;
+}
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+#contact ul {
+    list-style-type: none;
+}
+#contact li {
+    display: inline-block;
+}
