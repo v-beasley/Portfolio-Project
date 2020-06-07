@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-.half-width, .half-width-left, .half-width-right {
+.half-width {
     width: 600px;
     float: left;
 }
@@ -51,19 +51,19 @@ header h2 {
 
 /*****Work*****/
 #work {
-    overflow: auto;
     font-size: 24px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    height: 1450px;
 }
-#work p span {
+#work p span, #about p span {
     font-weight: bold;
 }
 #work h2 {
     font-family: 'Quicksand', 'sans-serif';
     font-size: 36px;
     text-align: center;
-    padding-bottom: 25px;
+    margin-bottom: 100px;
 }
 #work img {
     width: 550px;
@@ -73,25 +73,23 @@ header h2 {
 }
 .text-box {
     height: 350px;
-    margin: auto;
 }
-.half-width-right .text-box {
-    padding-left: 25px;
-}
-.half-width-left, .half-width-right {
-    margin-bottom: 100px;
+#work .half-width {
+    margin-bottom: 50px;
 }
 /*****About*****/
 #about {
-    height: 700px;
+    height: 650px;
     color: #ffffff; 
     background-color: #0489b1;
     text-align: left;
+    padding-top: 25px;
 }
 #about h2 {
     font-family: 'Quicksand', 'sans-serif';
     font-size: 36px;
     text-align: center;
+    margin-top: 25px;
 }
 #about p {
     width: 600px;
@@ -100,13 +98,15 @@ header h2 {
     height:425px;
     width: 425px;
     padding-top: 50px;
+    padding-left: 40px;
 }
 /*****Contact*****/
 #contact {
-    height: 450px;
+    height: 400px;
     color: #ffffff;
     background-color: #0b3681;
     padding: 1px;
+    text-align: center;
 }
 #contact h2 {
     font-family: 'Quicksand', 'sans-serif';
@@ -117,10 +117,9 @@ header h2 {
     margin:25px;
     text-align: center;
 }
-#contact p, img {
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 24px;
+#contact img {
+    padding-left: 5px;
+    padding-right: 50px;
 }
 a:link {
     text-decoration: none;
